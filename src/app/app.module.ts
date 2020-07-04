@@ -95,7 +95,7 @@ import { MisCarritosComponent } from './components/mis-carritos/mis-carritos.com
     ActiveUser1Pipe,
     ContactInformComponent,
     MisCarritosComponent
-   
+
   ],
   imports: [
     AppRoutingModule,

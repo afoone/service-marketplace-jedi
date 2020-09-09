@@ -81,7 +81,7 @@ export class NavbarComponent implements OnInit, DoCheck {
       });
     });
 
-    // onsole.log('array', this.itemsService, this.itemsSupplier);
+    // console.log('array', this.itemsService, this.itemsSupplier);
 
     this.itemsSide = [
       {
@@ -208,9 +208,9 @@ export class NavbarComponent implements OnInit, DoCheck {
       }
 
     }
-    console.log('carriito', this.carrito.length.toString());
+    console.log('carrrito length', this.carrito.length.toString());
     console.log(
-      'json',
+      'json length',
       JSON.parse(localStorage.getItem('cartContent')).length.toString()
     );
     console.log('carro1', this.carro1);
